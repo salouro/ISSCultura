@@ -70,4 +70,7 @@ public class Livro implements Serializable {
 		this.editora = editora;
 	}
 
+	public String toString(){
+		return this.nome + "; " + this.idioma + "; " + this.qntPaginas + "; " + this.editora.getNome();
+	}
 }
